@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@100;300&display=swap');
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+.box{
+    display: flex;
+    width: 600px;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: -225px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    line-height: 10px;
+}
+
+img{
+    border-radius: 10px 0px 0px 10px;
+}
+.perfume{
+    color: #606068;
+    margin-top: 30px;
+    margin-left: 30px;
+    letter-spacing: 3px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+.name{
+    color: #1D212E;
+    line-height: 40px;
+    font-size: 40px;
+    font-family: 'Fraunces', serif;   
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.eltext{
+    color: #46464d;
+    width: 240px;
+    margin-top: -22px;
+    margin-left: 30px;
+    line-height: 25px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    
+}
+.elprice{
+    display: flex;
+    margin-top: -20px;
+}
+.priceAfterSale{
+    margin-left: 30px;
+    color: #3D8168;
+    font-family: 'Fraunces', serif;
+    font-size:35px ;
+}
+.priceBeforeSale{
+    padding-top: 20px;
+    margin-left: 20px;
+    text-decoration: line-through;
+    color: #767679;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+.addToCart{
+    cursor: pointer;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    text-align:center;
+    width: 240px;
+    height: 50px;
+    background-color:#3D8168;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+.paragraphATC{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.cartIcon{
+    padding-top: 17px;
+    padding-left: 60px;
+}
